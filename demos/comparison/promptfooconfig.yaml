@@ -5,13 +5,6 @@ prompts:
 
 providers:
   - ollama:chat:phi3
-  # - ollama:chat:phi3:medium
-  - ollama:chat:llama2
-  # - ollama:chat:llama3
-  # - ollama:chat:llama3.1
-  # - ollama:chat:mistral
-  # - ollama:chat:mistral:v0.2
-  - ollama:chat:gemma2
   - id: azureopenai:chat:gpt-4o-mini
     config:
       apiHost: 'cog-zolnwmeatemto.openai.azure.com'

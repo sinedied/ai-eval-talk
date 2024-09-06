@@ -1,0 +1,4 @@
+  id: azureopenai:embedding:text-embedding-ada-002
+  config:
+    apiHost: 'cog-zolnwmeatemto.openai.azure.com'
+  
