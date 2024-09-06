@@ -1,0 +1,4 @@
+  id: azureopenai:chat:gpt-4o-mini
+  config:
+    apiHost: 'cog-zolnwmeatemto.openai.azure.com'
+  
