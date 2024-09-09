@@ -1,4 +1,3 @@
-  id: azureopenai:chat:gpt-35-turbo
-  config:
-    apiHost: 'cog-zolnwmeatemto.openai.azure.com'
-  
+id: azureopenai:chat:gpt-35-turbo
+config:
+  apiHost: 'cog-zolnwmeatemto.openai.azure.com'

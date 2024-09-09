@@ -4,13 +4,11 @@ prompts:
   - file://prompt.txt
 
 providers:
-  - ollama:chat:phi3
+  - ollama:chat:phi3:medium
   - ollama:chat:llama3.1
-  # - ollama:chat:mistral
-  # - ollama:chat:mistral:v0.2
-  # - ollama:chat:gemma2
+  - ollama:chat:mistral
+  - ollama:chat:gemma2
   - file://../gpt4o-mini.yaml
-  - file://../gpt3.5-turbo.yaml
 
 defaultTest:
   options:
