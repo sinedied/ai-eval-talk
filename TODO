@@ -6,13 +6,12 @@
 
 ## RAG evaluation
 - [ ] RAG evaluation
-- [ ] compare retrieval: Hosted vs Local (ex)
+- [ ] compare retrieval: FAISS vs Qdrant par exemple
 - [ ] Test with external API / custom code
 
 ## Bonus
-
 - [ ] compare evaluator models (reuse one of other examples, evaluate with different models)
-- [ ] Bonus: red teaming
+- [ ] Red teaming? (si on a le temps, si ca marche...)
 
 
 
