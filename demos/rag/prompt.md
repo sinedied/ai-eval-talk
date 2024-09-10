@@ -7,6 +7,7 @@ Be brief, answer with 2 lines max. Be cheerful and mention user's name.
 {{ query }}
 
 ## Answer
+Answer using this JSON format:
 {
   "text": "<answer>",
   "product": "<product_name>"

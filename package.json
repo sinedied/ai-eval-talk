@@ -1,13 +1,14 @@
 {
   "name": "ai-eval-talk",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "update": "npm i -g promptfoo@latest",
+    "env": ". ./.env"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "description": "",
   "devDependencies": {
     "promptfoo": "^0.82.0"

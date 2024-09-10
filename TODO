@@ -1,7 +1,33 @@
 # Demos
 
+## Benchmarking
+- [ ] Compare prompts
+- [ ] Compare models
+
+## RAG evaluation
+- [ ] RAG evaluation
+- [ ] compare retrieval: Hosted vs Local (ex)
+- [ ] Test with external API / custom code
+
+## Bonus
+
+- [ ] compare evaluator models (reuse one of other examples, evaluate with different models)
+- [ ] Bonus: red teaming
+
+
+
+
+
+
+
+
+## __old__
+
 - [ ] pairwise comparison
-- [ ] criteria
 - [ ] red teaming
 - [ ] custom scoring
 - [ ] dataset generation
+
+https://huggingface.co/datasets/cais/mmlu
+
+[FAIL] API response error: 429 Requests to the ChatComplet… Operation under Azure OpenAI API version 2023-12-01-… have exceeded the rate limit of your current OpenAI S0 pricing tier. Please retry after 47 seconds.
