@@ -1,5 +1,7 @@
 # Demo scenario
 
+Start from scratch (delete promptfooconfig.yaml)
+
 * `promptfoo init` => compare models
 * update config:
 
