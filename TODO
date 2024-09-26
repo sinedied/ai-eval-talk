@@ -1,13 +1,13 @@
 # Demos
 
 ## Benchmarking
-- [ ] Compare prompts
-- [ ] Compare models
+- [x] Compare prompts
+- [x] Compare models
 
 ## RAG evaluation
-- [ ] RAG evaluation
-- [ ] compare retrieval: FAISS vs Qdrant par exemple
-- [ ] Test with external API / custom code
+- [x] RAG evaluation
+- [c] compare retrieval: FAISS vs Qdrant par exemple
+- [x] Test with external API / custom code
 
 ## Bonus
 - [ ] compare evaluator models (reuse one of other examples, evaluate with different models)
