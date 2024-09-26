@@ -11,6 +11,8 @@
   "license": "MIT",
   "description": "",
   "devDependencies": {
-    "promptfoo": "^0.82.0"
+    "@dotenvx/dotenvx": "^1.14.1",
+    "promptfoo": "^0.90.1",
+    "tsx": "^4.19.1"
   }
 }
