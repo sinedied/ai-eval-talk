@@ -25,7 +25,7 @@ export default class CookingApiProvider {
         messages: [
           {
             role: "user",
-            content: context.vars.question,
+            content: prompt,
           },
         ],
       }),

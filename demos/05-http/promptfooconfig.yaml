@@ -1,4 +1,8 @@
 description: Custom HTTP endpoint
+prompts:
+  - How to bake chocolate cookies?
+  - How to make a pizza?
+  - What can I cook with chicken, salad, and potatoes?
 providers:
   - file://cooking-api.js
 defaultTest:
@@ -13,15 +17,8 @@ defaultTest:
       value: Contains step-by-step instructions on how to cook the recipe
       metric: Recipe
     - type: llm-rubric
-      value: Provides a direct answer to the question {{question}}
+      value: Provides an answer to the question {{question}}
       metric: Relevance
     - type: llm-rubric
       value: Contains 3 follow-up questions at the end with the syntax <<question>>
       metric: Consistency
-tests:
-- vars:
-    question: How to make chocolate cookies?
-- vars:
-    question: How to make a pizza?
-- vars:
-    question: What can I cook with chicken, salad, and potatoes?
