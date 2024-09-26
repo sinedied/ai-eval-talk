@@ -1,6 +1,7 @@
 {
   "name": "ai-eval-talk",
   "version": "1.0.0",
+  "type": "module",
   "private": true,
   "scripts": {
     "update": "npm i -g promptfoo@latest",
