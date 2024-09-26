@@ -1,0 +1,11 @@
+POST https://ashy-sand-01eb5160f.5.azurestaticapps.net/api/chat
+Content-Type: application/json
+
+{
+  "messages": [
+    {
+      "content": "How to make chocolate cookies?",
+      "role": "user"
+    }
+  ]
+}

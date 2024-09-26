@@ -1,0 +1,27 @@
+description: Custom HTTP endpoint
+providers:
+  - file://cooking-api.js
+defaultTest:
+  options:
+    provider: file://../gpt4o-mini.yaml
+  assert:
+    - type: llm-rubric
+      value: Contains a list of ingredients
+      metric: Ingredients
+      weight: 2
+    - type: llm-rubric
+      value: Contains step-by-step instructions on how to cook the recipe
+      metric: Recipe
+    - type: llm-rubric
+      value: Provides a direct answer to the question {{question}}
+      metric: Relevance
+    - type: llm-rubric
+      value: Contains 3 follow-up questions at the end with the syntax <<question>>
+      metric: Consistency
+tests:
+- vars:
+    question: How to make chocolate cookies?
+- vars:
+    question: How to make a pizza?
+- vars:
+    question: What can I cook with chicken, salad, and potatoes?
