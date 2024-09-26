@@ -1,0 +1,9 @@
+{
+  "code-runner.executorMap": {
+    "typescript": "cd demos/ai-eval && npx dotenv run -- npx tsx",
+    "javascript": "cd demos/ai-eval && npx dotenv run -- node",
+  },
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveFileBeforeRun": true,
+  // "code-runner.showExecutionMessage": false,
+}
