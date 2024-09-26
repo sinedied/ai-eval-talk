@@ -1,0 +1,22 @@
+##################################################################
+# VS Code with REST Client extension is needed to use this file.
+# Download at: https://aka.ms/vscode/rest-client
+##################################################################
+
+POST http://localhost:11434/v1/chat/completions
+Content-Type: application/json
+
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant."
+    },
+    {
+      "role": "user",
+      "content": "Say hello in French, Japanese, and Spanish."
+    }
+  ],
+  "model": "phi3",
+  "response_format": { "type": "json_object" }
+}
