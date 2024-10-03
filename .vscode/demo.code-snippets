@@ -15,12 +15,39 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	"promptfoo-providers": {
-		"prefix": "imp",
-		"scope": "javascript",
+	"promptfoo-providers-basic": {
+		"prefix": "promptfoo-providers-basic",
+		"scope": "yaml",
 		"body": [
-			"todo",
-			"todo"
+			"- ollama:chat:llama3.1",
+		],
+		"description": ""
+	},
+	"promptfoo-providers-test": {
+		"prefix": "promptfoo-providers-test",
+		"scope": "yaml",
+		"body": [
+			"defaultTest:",
+  			"  options:",
+    		"    provider: file://../gpt4o-mini.yaml"
+		],
+		"description": ""
+	},
+	"promptfoo-providers-more": {
+		"prefix": "promptfoo-providers-more",
+		"scope": "yaml",
+		"body": [
+			"- ollama:chat:phi3:mini-4k",
+  			"- ollama:chat:llama3.1",
+  			"- ollama:chat:gemma2:2b"
+		],
+		"description": ""
+	},
+	"promptfoo-providers-bedrock": {
+		"prefix": "promptfoo-providers-bedrock",
+		"scope": "yaml",
+		"body": [
+			"- file://../bedrock-claude35-sonnet.yaml"
 		],
 		"description": ""
 	}
