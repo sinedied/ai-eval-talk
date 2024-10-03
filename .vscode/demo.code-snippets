@@ -15,9 +15,9 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	"import azure": {
+	"promptfoo-providers": {
 		"prefix": "imp",
-    "scope": "javascript",
+		"scope": "javascript",
 		"body": [
 			"todo",
 			"todo"
