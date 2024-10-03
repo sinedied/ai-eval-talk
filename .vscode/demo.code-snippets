@@ -38,8 +38,7 @@
 		"scope": "yaml",
 		"body": [
 			"- ollama:chat:phi3:mini-4k",
-  			"- ollama:chat:llama3.1",
-  			"- ollama:chat:gemma2:2b"
+  		"- ollama:chat:gemma2:2b"
 		],
 		"description": ""
 	},
