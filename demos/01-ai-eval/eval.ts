@@ -38,7 +38,7 @@ console.log(answer);
 
 // Evaluate the answer ----------------------------------------
 
-const createEvalPrompt = (answer) =>`
+const createEvalPrompt = (answer: string) =>`
 You are given an LLM generated answer. Rate the answer using the following criteria. Make sure you read and understand these instructions very carefully.
 
 ## Answer
@@ -70,7 +70,7 @@ Briefly explain why you gave the scores you did, 1 sentence per criteria.
 
 const azopenai = new AzureOpenAI();
 const evalResult = await azopenai.chat.completions.create({
-  messages: [{ role: "user", content: createEvalPrompt(answer) }],
+  messages: [{ role: "user", content: createEvalPrompt(answer!) }],
   model: "gpt-4o-mini",
 });
 
