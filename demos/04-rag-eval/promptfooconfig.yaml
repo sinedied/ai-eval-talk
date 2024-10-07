@@ -1,6 +1,7 @@
 description: RAG prompt eval
 prompts:
   - file://prompt.md
+
 providers:
   - ollama:chat:phi3:mini-4k
   - ollama:chat:llama3.2
@@ -8,6 +9,7 @@ providers:
   - ollama:chat:gemma2:2b
   - file://../gpt4o-mini.yaml
   - file://../bedrock-claude35-sonnet.yaml
+  
 defaultTest:
   options:
     provider: file://../gpt4o-mini.yaml
